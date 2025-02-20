@@ -1,0 +1,32 @@
+.form,
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.form label {
+  color: var(--black);
+}
+
+.form select {
+  background-color: #ecebeb;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.8rem;
+}
+
+.form [type='submit'] {
+  background-color: var(--PRIMARY);
+  color: var(--white);
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 300ms ease;
+}
+
+.form [type='submit']:hover {
+  background-color: #0cb387;
+}
